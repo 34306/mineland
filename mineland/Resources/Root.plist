@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>key</key>
+			<string>isUseDefault</string>
+			<key>label</key>
+			<string>Use Default Setup</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>key</key>
+			<string>isHide</string>
+			<key>label</key>
+			<string>Hide Black Pill when not use</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>'Use Default Setup' is my settings that should be perfect for most of devices. If you want to customize your own Dynamic Island, please disable this function.
+'Custom Scale' is the position of Dynamic Island that multiply with your own screen size value. Default was 0.065 (6.5%). Please use decimal number like: 0.065 or 0.07 (not percent).</string>
+			<key>label</key>
+			<string>Custom Scale (Screen Size Percent)</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>key</key>
+			<string>isScalePosition</string>
+			<key>label</key>
+			<string>Custom Scale by % ScreenSize</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>bestGuess</key>
+			<string>0.065</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>isNumeric</key>
+			<false/>
+			<key>key</key>
+			<string>percent</string>
+			<key>label</key>
+			<string>Position by ScreenSize</string>
+			<key>placeholder</key>
+			<string>0.065</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Position</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>key</key>
+			<string>isCustomPosition</string>
+			<key>label</key>
+			<string>Custom Position</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>bestGuess</key>
+			<string>0</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>isNumeric</key>
+			<false/>
+			<key>key</key>
+			<string>valueX</string>
+			<key>label</key>
+			<string>Offset X:</string>
+			<key>placeholder</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>bestGuess</key>
+			<string>20</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>isNumeric</key>
+			<false/>
+			<key>key</key>
+			<string>valueY</string>
+			<key>label</key>
+			<string>Offset Y:</string>
+			<key>placeholder</key>
+			<string>20</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Transparent</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>key</key>
+			<string>isCustomAlpha</string>
+			<key>label</key>
+			<string>Custom Transparent Alpha</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>bestGuess</key>
+			<string>0.6</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>isNumeric</key>
+			<false/>
+			<key>key</key>
+			<string>valueAlpha</string>
+			<key>label</key>
+			<string>Transparent Alpha:</string>
+			<key>placeholder</key>
+			<string>0.6</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Respring to take effect.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respringFunction</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>From Little 34306 with 🥰</string>
+			<key>label</key>
+			<string>Contact:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>Twitter</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>mineland</string>
+</dict>
+</plist>

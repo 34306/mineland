@@ -1,0 +1,9 @@
+Package: com.34306.mineland
+Name: mineland
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Lower your Dynamic Island and make it disappear if you don't need it. All the original code is from KhanhDuyTran (@TranKha50277352)
+Maintainer: Little 34306
+Author: 34306, KhanhDuyTran
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
