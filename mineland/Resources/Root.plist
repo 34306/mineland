@@ -14,20 +14,6 @@
 			<key>defaults</key>
 			<string>com.34306.mineland</string>
 			<key>key</key>
-			<string>isUpsideDown</string>
-			<key>label</key>
-			<string>Enable UpsideDown</string>
-		</dict>
-		<dict>
-			<key>PostNotification</key>
-			<string>com.34306.mineland.settingschanged</string>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<false/>
-			<key>defaults</key>
-			<string>com.34306.mineland</string>
-			<key>key</key>
 			<string>isUseDefault</string>
 			<key>label</key>
 			<string>Use Default Setup</string>
@@ -45,6 +31,42 @@
 			<string>isHide</string>
 			<key>label</key>
 			<string>Hide Black Pill when not use</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>You can enable UpsideDown for a 'truthly' hide Dynamic Island pill by rotate your device 180 degree!</string>
+			<key>label</key>
+			<string>Upsidedown</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>key</key>
+			<string>isUpsideDown</string>
+			<key>label</key>
+			<string>Enable UpsideDown</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>key</key>
+			<string>isUpsideDownFixedForDynamicIsland</string>
+			<key>label</key>
+			<string>Fix Dynamic Island rotate</string>
 		</dict>
 		<dict>
 			<key>cell</key>

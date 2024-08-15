@@ -1,6 +1,9 @@
 export THEOS = /Users/huynguyen/Desktop/theos
 ARCHS = arm64 arm64e
-TARGET := iphone:clang:latest:15.0
+
+SDK_PATH = $(THEOS)/sdks/iPhoneOS16.4.sdk/
+$(info ===> Setting SYSROOT to $(SDK_PATH)...)
+SYSROOT = $(SDK_PATH)
 
 include $(THEOS)/makefiles/common.mk
 
