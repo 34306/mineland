@@ -14,6 +14,20 @@
 			<key>defaults</key>
 			<string>com.34306.mineland</string>
 			<key>key</key>
+			<string>isUpsideDown</string>
+			<key>label</key>
+			<string>Enable UpsideDown</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>key</key>
 			<string>isUseDefault</string>
 			<key>label</key>
 			<string>Use Default Setup</string>
@@ -132,8 +146,11 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Use 'Dynamic Island Transparent' if you want to make your Dynamic Island fully transparent.
+Otherwise, just set custom alpha if you want to make it a little blur in black.</string>
 			<key>label</key>
-			<string>Custom Transparent</string>
+			<string>Custom Alpha</string>
 		</dict>
 		<dict>
 			<key>PostNotification</key>
@@ -147,7 +164,7 @@
 			<key>key</key>
 			<string>isCustomAlpha</string>
 			<key>label</key>
-			<string>Custom Transparent Alpha</string>
+			<string>Custom Alpha</string>
 		</dict>
 		<dict>
 			<key>PostNotification</key>
@@ -163,9 +180,23 @@
 			<key>key</key>
 			<string>valueAlpha</string>
 			<key>label</key>
-			<string>Transparent Alpha:</string>
+			<string>Alpha:</string>
 			<key>placeholder</key>
 			<string>0.6</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.34306.mineland.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.34306.mineland</string>
+			<key>key</key>
+			<string>isTransparent</string>
+			<key>label</key>
+			<string>Dynamic Island Transparent</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -187,7 +218,7 @@
 			<key>footerText</key>
 			<string>From Little 34306 with 🥰</string>
 			<key>label</key>
-			<string>Contact:</string>
+			<string>Contact</string>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -197,7 +228,17 @@
 			<key>icon</key>
 			<string>twitter.png</string>
 			<key>label</key>
-			<string>Twitter</string>
+			<string>Little 34306's Twitter</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter2</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>DuyTranKhanh's Twitter</string>
 		</dict>
 	</array>
 	<key>title</key>

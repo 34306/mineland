@@ -34,7 +34,13 @@
 }
 
 - (void)twitter {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://mobile.twitter.com/little_34306"]
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://x.com/little_34306"]
+                                    options:@{}
+                          completionHandler:nil];
+}
+
+- (void)twitter2 {
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://x.com/TranKha50277352"]
                                     options:@{}
                           completionHandler:nil];
 }
